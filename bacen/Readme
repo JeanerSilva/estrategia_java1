@@ -1,0 +1,4 @@
+docker build -t my-java-app .
+docker run -it --rm --name my-running-app my-java-app
+
+docker run --rm -v C:\code\java\estrategia_java1:/usr/src/myapp -w /usr/src/myapp openjdk:11 javac Bacen.java
